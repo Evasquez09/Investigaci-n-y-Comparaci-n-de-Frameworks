@@ -1,0 +1,8 @@
+﻿{
+  "name": "busqueda-binaria-pruebas",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Búsqueda binaria y pruebas unitarias con Jasmine",
+  "scripts": { "test": "node ejecutarPruebas.js" },
+  "devDependencies": { "jasmine": "~5.13.0" }
+}

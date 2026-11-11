@@ -1,0 +1,61 @@
+
+> busqueda-binaria-pruebas@1.0.0 test
+> node ejecutarPruebas.js
+
+BUSQUEDA BINARIA: 10 pruebas unitarias
+
+Resultado = indice desde 0; -1 significa valor ausente.
+Los arreglos deben estar ordenados de menor a mayor.
+
+CASO: encuentra un elemento en el centro
+  Arreglo: [2, 4, 6, 8, 10]; buscar: 6
+  Esperado: 2; obtenido: 2
+Estado: APROBADO
+
+CASO: encuentra el primer elemento
+  Arreglo: [2, 4, 6, 8, 10]; buscar: 2
+  Esperado: 0; obtenido: 0
+Estado: APROBADO
+
+CASO: encuentra el Ãºltimo elemento
+  Arreglo: [2, 4, 6, 8, 10]; buscar: 10
+  Esperado: 4; obtenido: 4
+Estado: APROBADO
+
+CASO: devuelve -1 si el valor falta dentro del rango
+  Arreglo: [2, 4, 6, 8, 10]; buscar: 5
+  Esperado: -1; obtenido: -1
+Estado: APROBADO
+
+CASO: devuelve -1 si el valor es menor que todos
+  Arreglo: [2, 4, 6]; buscar: 1
+  Esperado: -1; obtenido: -1
+Estado: APROBADO
+
+CASO: devuelve -1 si el valor es mayor que todos
+  Arreglo: [2, 4, 6]; buscar: 9
+  Esperado: -1; obtenido: -1
+Estado: APROBADO
+
+CASO: devuelve -1 para un arreglo vacÃ­o
+  Arreglo: []; buscar: 3
+  Esperado: -1; obtenido: -1
+Estado: APROBADO
+
+CASO: encuentra un Ãºnico elemento
+  Arreglo: [7]; buscar: 7
+  Esperado: 0; obtenido: 0
+Estado: APROBADO
+
+CASO: encuentra valores negativos en un arreglo par
+  Arreglo: [-9, -3, 0, 5]; buscar: -3
+  Esperado: 1; obtenido: 1
+Estado: APROBADO
+
+CASO: con duplicados devuelve un Ã­ndice que contiene el valor
+  Arreglo: [1, 3, 3, 3, 8]; buscar: 3
+  Esperado: indice entre 1 y 3 con valor 3; obtenido: 2
+Estado: APROBADO
+
+RESUMEN: 10 aprobadas; 0 fallidas.
+Resultado general: passed
